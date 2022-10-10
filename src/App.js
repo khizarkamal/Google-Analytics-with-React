@@ -5,8 +5,9 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(()=>{
-    ReactGa.initialize('G-FQXCWRX2GT');
 
+    ReactGa.initialize('UA-245010941-1');
+    //react page view
     ReactGa.pageview('/')
   },[]);
 
